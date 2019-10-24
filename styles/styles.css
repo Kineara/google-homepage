@@ -5,20 +5,12 @@ body {
 
 main {
   height: 100vh;
-  display: grid;
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "header header header"
-"left content right"
-"left content right"
-"footer footer footer";
 }
 
 #main-content-container {
-  grid-area: content;
   width: 100%;
   position: relative;
-  bottom: 15d%;
+  top: 20%;
 }
 
 #main-content-container img, input {
