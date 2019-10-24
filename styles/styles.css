@@ -32,6 +32,7 @@ main {
 
 #button-container input, button {
   display: inline-block;
+
 }
 
 #main-content-container img {
@@ -39,13 +40,24 @@ main {
 }
 
 #search-box {
-
+  width: 500px;
+  height: 2.5em;
+  margin: 0 auto;
+  border-radius: 1.25em;
+  border: 1px solid #dfe1e5;
 }
 
 .search-button {
   padding: .5em;
-  border: none;
-  background-color: ##f1f1f1
+  margin: 0 3px;
+  border: 1px solid #f1f1f1;
+  background-color: #f1f1f1;
+  color: #5e6368;
+}
+
+.search-button:hover {
+  border: 1px solid black;
+  color: black;
 }
 
 
