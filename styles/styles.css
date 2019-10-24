@@ -41,6 +41,7 @@ main {
   border: 1px solid #f1f1f1;
   background-color: #f1f1f1;
   color: #5e6368;
+  border-radius: 3px;
 }
 
 .search-button:hover {
