@@ -22,11 +22,6 @@ main {
   text-align: center;
 }
 
-#button-container input, button {
-  display: inline-block;
-
-}
-
 #main-content-container img {
   padding: 20px;
 }
@@ -40,6 +35,7 @@ main {
 }
 
 .search-button {
+  display: inline-block;
   padding: .5em;
   margin: 0 3px;
   border: 1px solid #f1f1f1;
@@ -48,8 +44,12 @@ main {
 }
 
 .search-button:hover {
-  border: 1px solid black;
-  color: black;
+  border: 1px solid #5e6368;
+  color: #5e6368;
+}
+
+#search-box:hover {
+  box-shadow: 1px 1px 5px #dfe1e5;
 }
 
 
