@@ -1,0 +1,52 @@
+body {
+  background-color: #fff;
+  font-family: arial, sans-serif;
+}
+
+main {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "header header header"
+"left content right"
+"left content right"
+"footer footer footer";
+}
+
+#main-content-container {
+  grid-area: content;
+  width: 100%;
+  position: relative;
+  bottom: 15d%;
+}
+
+#main-content-container img, input {
+  display: block;
+  margin: 0 auto;
+}
+
+#button-container {
+  text-align: center;
+}
+
+#button-container input, button {
+  display: inline-block;
+}
+
+#main-content-container img {
+  padding: 20px;
+}
+
+#search-box {
+
+}
+
+.search-button {
+  padding: .5em;
+  border: none;
+  background-color: ##f1f1f1
+}
+
+
+
