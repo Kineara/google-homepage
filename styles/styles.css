@@ -7,17 +7,18 @@ body {
   background-color: #fff;
   font-family: arial, sans-serif;
   font-size: 13px;
+  min-width: 1139px;
 }
 
 main {
-  min-height: calc(100vh - 82px);
+  min-height: calc(100vh - 95px);
 }
 
 /* top navbar */
 
 ul {
   list-style-type: none;
-  padding: 0 24px 0 0;
+  padding: 12px;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -26,7 +27,7 @@ ul {
 ul a,
 button {
   display: inline-block;
-  padding: 12px;
+  padding: 0 12px;
   text-decoration: none;
   color: rgb(34, 34, 34);
   text-transform: capitalize;
@@ -47,8 +48,8 @@ ul button {
 
 #main-content-container {
   width: 100%;
-  position: relative;
-  top: 150px;
+  position: absolute;
+  top: 14%;
 }
 
 #main-content-container img,
@@ -99,7 +100,7 @@ input:focus {
   text-shadow: 1px 1px 5px rgb(223, 225, 229);
 }
 
-#search-box:hover {
+#search-box:hover,:focus {
   box-shadow: 2px 2px 5px rgb(223, 225, 229);
 }
 
