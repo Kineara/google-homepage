@@ -6,7 +6,7 @@
 body {
   background-color: #fff;
   font-family: arial, sans-serif;
-  margin: 0;
+  font-size: 13px;
 }
 
 main {
@@ -17,23 +17,19 @@ main {
 
 ul {
   list-style-type: none;
-  margin: 0;
   padding: 0 24px 0 0;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  
 }
 
-ul a, button {
+ul a,
+button {
   display: inline-block;
   padding: 12px;
-
   text-decoration: none;
-  color: rgb(34,34,34);
+  color: rgb(34, 34, 34);
   text-transform: capitalize;
-  font-family: arial, sans-serif;
-  font-size: 13px;
 }
 
 ul button {
@@ -41,7 +37,7 @@ ul button {
   border: 1px rgb(66, 133, 244) solid;
   border-radius: 2px;
   font-weight: 700;
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
   line-height: 28px;
   padding: 0 12px;
   text-align: center;
@@ -55,7 +51,8 @@ ul button {
   top: 150px;
 }
 
-#main-content-container img, input {
+#main-content-container img,
+input {
   display: block;
   margin: 0 auto;
 }
@@ -71,36 +68,39 @@ ul button {
 #search-box {
   margin: 0 auto;
   border-radius: 24px;
-  border: 1px solid rgb(223,225,229);
-  color: rgb(34,34,34);
+  border: 1px solid rgb(223, 225, 229);
+  color: rgb(34, 34, 34);
   height: 44px;
   width: 482px;
   font-size: 16px;
-  font-family: arial, sans-serif;
 }
 
 .search-button {
   display: inline-block;
   padding: 0 16px;
   margin: 11px 4px;
-  border: 1px solid rgb(242,242,242);
-  background-color: rgb(242,242,242);
-  color: rgb(95,99,104);
+  border: 1px solid rgb(242, 242, 242);
+  background-color: rgb(242, 242, 242);
+  color: rgb(95, 99, 104);
   border-radius: 4px;
   font-size: 14px;
   height: 36px;
   cursor: pointer;
 }
 
+input:focus {
+  outline: none;
+}
+
 .search-button:hover {
-  border: 1px solid #b6b6b6;
-  color: rgb(34,34,34);
-  box-shadow: 1px 1px 5px #dfe1e5;
-  text-shadow: 1px 1px 5px #dfe1e5;
+  border: 1px solid rgb(182, 182, 182);
+  color: rgb(34, 34, 34);
+  box-shadow: 1px 1px 5px rgb(223, 225, 229);
+  text-shadow: 1px 1px 5px rgb(223, 225, 229);
 }
 
 #search-box:hover {
-  box-shadow: 2px 2px 5px #dfe1e5;
+  box-shadow: 2px 2px 5px rgb(223, 225, 229);
 }
 
 /* footer */
@@ -109,8 +109,8 @@ footer {
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
-  background-color: rgb(242,242,242);
-  color: rgb(95,99,104);
+  background-color: rgb(242, 242, 242);
+  color: rgb(95, 99, 104);
   height: 41px;
   align-content: center;
   margin: 0;
@@ -119,5 +119,3 @@ footer {
 footer ul {
   flex-direction: row;
 }
-
-
